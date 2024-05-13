@@ -1,0 +1,313 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+  body {
+    background-image: url('https://www.rgj.com/gcdn/-mm-/abde6c2b863808e3fd525fcec0bf758d57ae0ced/c=0-137-1920-1222/local/-/media/2016/11/16/Reno/RGJ/636148529264388045-Pokemon-Sun-Moon-Alola.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  body {
+    font-family: 'Times New Roman', Times, serif
+        height: 35%;
+}
+p {
+  font-size: 18px;
+  line-height: 2;
+}
+
+.gif {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 80%; 
+  max-height: 80vh; 
+}
+
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+
+
+
+
+  .custom-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+
+  .container {
+    position: relative;
+    width: 100%;
+    height: 100vh; 
+    background-color: #ffffff; 
+}
+
+.aside {
+    position: absolute;
+    top: 125px; 
+    right: 45px; 
+    width: 350px; 
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    line-height: 2;
+}
+
+
+
+header {
+    background-color: #9933cc;
+    color: #ffff;
+    padding: 40px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+nav ul li a:hover {
+    color: #000000;
+}
+
+
+main {
+    padding: 30px;
+}
+
+section {
+    margin-bottom: 55px;
+    background-color: #7bd853;
+    padding: 40px;
+    border-radius: 30px;
+}
+
+
+
+
+
+h2 {
+    color: #333;
+}
+
+footer {
+    background-color: #0099cc;
+    color: #fff;
+    text-align: center;
+    padding: 70px 0;
+}
+
+
+[class*="col-"] {
+    width: 100%;
+  }
+  
+  @media only screen and (min-width: 600px) {
+    
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+  }
+  @media only screen and (min-width: 768px) {
+    
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+  }
+
+
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  [class*="col-"] {
+    float: left;
+    padding: 15px;
+  }
+  
+  html {
+    font-family: "Lucida Sans", Times new roman;
+  }
+  
+  .header {
+    background-color: #9933cc;
+    color: #ffffff;
+    padding: 15px;
+  }
+  
+  .menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu li {
+    padding: 8px;
+    margin-bottom: 7px;
+    background-color: #33b5e5;
+    color: #ffffff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  }
+  
+  .menu li:hover {
+    background-color: #0099cc;
+  }
+  
+  .aside {
+    background-color: #33b5e5;
+    padding: 15px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 14px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  }
+  
+
+
+  .container {
+    display: flex;
+  }
+  
+  .pokemon-container {
+    position: relative;
+    flex: 1; 
+    margin: 10px; 
+  }
+  
+  .pokemon-image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: orange;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+  }
+  
+  .pokemon-container:hover .overlay {
+    background-color: lightgreen; 
+    width: 100%;
+  }
+  
+  .text {
+    white-space: nowrap; 
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+
+
+  .pokemonfire-container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .pokemonfire-card {
+    width: 30%;
+    margin-bottom: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  .pokemonfire-img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  .pokemonfire-info {
+    padding: 20px;
+  }
+  .pokemonfire-name {
+    margin-top: 0;
+  }
+
+
+  article {
+    max-width: 800px;
+    margin: auto;
+    padding: 45px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #333;
+    line-height: 1.6;
+    margin-top: 20px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  h2 {
+    color: #ff4d4d;
+  }
+
+
+article:hover {
+  transform: translateY(-5px);
+}
+
+

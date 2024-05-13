@@ -1,0 +1,106 @@
+body {
+    font-family: Times New Roman;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://external-preview.redd.it/aC7zQKO6GH1UVuAB_K31hwncC23H-O3C1-CJODnHB_U.png?width=640&crop=smart&auto=webp&s=2390ffe7bbf0a6149dc6233a6f38d7eee143085b');
+      background-size: cover;
+      background-position: center;
+  }
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  .form-group {
+    margin-bottom: 20px;
+  }
+  label {
+    font-weight: bold;
+  }
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+
+
+
+
+  @keyframes dance {
+    0% {
+        transform: translateY(0);
+    }
+    25% {
+        transform: translateY(-20px) rotate(-5deg);
+    }
+    50% {
+        transform: translateY(0);
+    }
+    75% {
+        transform: translateY(-20px) rotate(5deg);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.pikachu {
+    width: 150px; 
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: dance 1s infinite;
+}
+
+
+.home-button {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+.home-button a {
+  display: inline-block;
+  padding: 15px 30px;
+  background-color: rgb(32, 126, 214);
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.description-box {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+.description-box h2 {
+  color: #333;
+}
+.description-box p {
+  color: #666;
+}
